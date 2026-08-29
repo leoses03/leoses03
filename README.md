@@ -24,9 +24,27 @@ Diseño en Figma y en pen.dev, y después lo maqueto yo mismo. Que la misma pers
 
 `PHP` · `Laravel` · `JavaScript` · `Three.js` · `React` · `Python` · `FastAPI` · `MySQL` · `Redis` · `nginx` · `Docker` · `WordPress` · `WooCommerce` · `Figma`
 
-### Sobre estos repos
+### Plataformas en producción
 
-La mayor parte de lo que construyo es para clientes y vive en repositorios privados o en sus propios servidores. Lo que hay aquí público son herramientas y experimentos propios.
+La mayor parte de lo que construyo vive en repositorios privados. La arquitectura y
+las decisiones técnicas de cada uno están documentadas en **[PROYECTOS.md](PROYECTOS.md)**.
+
+| Proyecto | Qué es | Stack |
+| --- | --- | --- |
+| **WuMark** | Hub de integración con marketplaces (ML, Falabella). Un VPS por cliente, entrega pull-only vía GHCR | FastAPI · SQLAlchemy async · React · Postgres |
+| **Wuplify** | Plataforma de pedidos para +50 restaurantes: POS, cocina, inventario, despacho por zonas | WordPress multisite · PHP · Redis |
+| **WuPOS** | Punto de venta multi-tenant que abre sin internet (PWA + IndexedDB con cola) | Laravel 13 · Livewire · PWA |
+| **CoreHost** | Panel de hosting con facturación, Webpay y Flow, aprovisionamiento vía WHM | Laravel 12 · Blade |
+| **Ley 21.719** | Cumplimiento de la ley chilena de datos personales: consentimiento auditable | Laravel · Livewire |
+| **WuServa** | SaaS de agendamiento multi-tenant, vertical dental con odontograma | Laravel 13 · Livewire 3 |
+| **WuMail** | Email marketing multi-tenant con colas y control de tasa de envío | Laravel 13 · Livewire |
+| **Condominios** | Gastos comunes multi-tenant con doble moneda anclada al dólar | Laravel 13 · Livewire |
+
+### Público en este perfil
+
+- **[ChatBotIA-Local-RAG](https://github.com/leoses03/ChatBotIA-Local-RAG)** — chatbot de ventas con RAG 100% local (Ollama + SQLite + FastAPI), búsqueda híbrida, chat en vivo y CRM.
+- **[corehost-cache](https://github.com/leoses03/corehost-cache)** — caché de página para WordPress.
+- **[vps-bootstrap](https://github.com/leoses03/vps-bootstrap)** — aprovisionamiento de servidores.
 
 Los proyectos de cliente están explicados con capturas y contexto en el portafolio.
 
