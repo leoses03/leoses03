@@ -6,7 +6,7 @@ Diecinueve años construyendo para la web, nueve de ellos en Chile. Diseño y le
 
 Diseño en Figma y en pen.dev, y después lo maqueto yo mismo. Que la misma persona diseñe e implemente elimina la traducción defectuosa de en medio: lo que se dibujó es lo que sale.
 
-### 🔗 [luisoses.dev](https://luisoses.dev) — portafolio y proyectos
+### 🔗 [oses.dev](https://oses.dev) — portafolio y proyectos
 
 ---
 
